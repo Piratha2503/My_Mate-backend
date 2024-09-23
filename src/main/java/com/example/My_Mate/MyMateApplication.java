@@ -8,7 +8,7 @@ public class MyMateApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyMateApplication.class, args);
-		System.out.println("System started ...");
+		System.out.println("System started after create git...");
 	}
 
 }
