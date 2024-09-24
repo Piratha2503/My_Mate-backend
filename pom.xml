@@ -71,7 +71,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Jenkins-output</finalName>
+		<finalName>My_Mate-backend</finalName>
 	</build>
 	<repositories>
 		<repository>
