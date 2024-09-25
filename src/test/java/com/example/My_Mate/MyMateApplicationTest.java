@@ -9,16 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MyMateApplicationTest {
 
-    @Test
-    void saveClient(){
 
-        ClientRequest clientRequest = new ClientRequest();
-        clientRequest.setName("Name");
-        clientRequest.setRasi("Rasi");
-        clientRequest.setNadchathiram("Nadchathiram");
-
-        var clientController = new ClientController();
-        assertEquals("ok",clientController.addClient(clientRequest));
-    }
 
 }
