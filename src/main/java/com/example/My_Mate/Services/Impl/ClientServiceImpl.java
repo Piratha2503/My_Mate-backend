@@ -16,9 +16,9 @@ public class ClientServiceImpl implements ClientService {
 
 
     @Override
-    public Client saveClient(ClientRequest clientRequest) {
+    public void saveClient(ClientRequest clientRequest) {
         Client client = new Client();
         BeanUtils.copyProperties(clientRequest,client);
-        return clientRepository.save(client);
+        clientRepository.save(client);
     }
 }
